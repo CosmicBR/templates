@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="drop.css">
+	<title>Fiel Connect</title>
+</head>
+<body>
+	
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand"><i class='bx bxs-analyse icon'></i> Fiel Connect</a>
+		<ul class="side-menu">
+			<li><a href="#" class="active"><i class='bx bxs-dashboard icon' ></i> Inicio</a></li>
+			<li class="divider" data-text="main">Principal</li>
+			<li>
+				<li><a href="#"><i class='bx bxs-info-square icon' ></i> Novidades</a>
+					<li><a href="#"><i class='bx bxs-group icon' ></i>Fieis </a></li>
+				<a href="#"><i class='bx bxs-coin-stack icon' ></i> Doações <i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+
+					<li><a href="#">Dizimos</a>
+					</li>
+					<li><a href="#">Alimentos</a></li>
+					<li><a href="#">Equipamentos</a></li>
+					<li><a href="#">Roupas</a></li>
+				</ul>
+			</li>
+			<li><a href="#"><i class='bx bxs-folder-plus icon' ></i> Cultos</a></li>
+			<li><a href="#"><i class='bx bxs-video-plus icon' ></i> Lives</a></li>
+			<li><a href="#"><i class='bx bxs-envelope-open icon' ></i> Convite</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="ads">
+			<div class="wrapper">
+				<a href="#" class="btn-upgrade">Atualizar</a>
+				<p>Eleve sua experiência como membro <span>PRO</span> e desfrute de todos os <span>recursos exclusivos.</span></p>
+			</div>
+		</div>
+	</section>
+	<!-- SIDEBAR -->
+
+	<!-- NAVBAR -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu toggle-sidebar' ></i>
+			<form action="#">
+				<div class="form-group">
+					
+
+				</div>
+			</form>
+			<a href="#" class="nav-link" onclick="toggleModal()">
+            <i class='bx bxs-bell icon'></i>
+            <span class="badge" id="notificaciones">1</span>
+      		</a>
+
+
+      		<!-- Modal -->
+        	<div class="modal" id="modalNotificaciones">
+          	  <div class="modal-content">
+                <!-- Contenido del modal (nuevas notificaciones) -->
+            	    <h3>Bem-vindo ao nossa plataforma</h3>
+            	    <p>Desejamos uma otima experiencia!</p>
+            		    <button class="modal-button" onclick="toggleModal(	)">Encerrar</button>
+         	   </div>
+       		 </div>
+   		 </form>
+
+
+			<span class="divider"></span>
+			<!--Aqui-->
+			</div>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<!-- MAIN -->
+<main>
+    <h1 class="title">Igreja Exemplo</h1>
+    <ul class="breadcrumbs">
+        <li><a href="#">Começo</a></li>
+        <li class="divider">/</li>
+        <li><a href="#" class="active">Novidades</a></li>
+    </ul>
+    
+    <!-- Formulário de texto -->
+    <div class="text-form">
+        <h2>Enviar Novidades</h2>
+        <form action="#" method="post">
+            <label for="nome">Assunto:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+
+            <input type="submit" value="Enviar Para Todos os Fieis">
+        </form>
+    </div>
+</main>
+
+		<!-- MAIN -->
+	</section>
+	<!-- NAVBAR -->
+
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+	<script src="script.js"></script>
+	<script src="node.js"></script>
+
+
+
+
+</body>
+</html>
